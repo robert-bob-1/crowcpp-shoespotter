@@ -1,0 +1,3 @@
+/home/robob/crowcpp/build/CMakeFiles/crowcpp.dir
+/home/robob/crowcpp/build/CMakeFiles/edit_cache.dir
+/home/robob/crowcpp/build/CMakeFiles/rebuild_cache.dir

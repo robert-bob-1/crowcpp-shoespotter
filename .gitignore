@@ -1,0 +1,9 @@
+#project files
+.others/
+.vscode/
+build/
+
+#libs
+Crow/
+boost_1_84_0/
+libpqxx/

@@ -4,48 +4,41 @@
 #include <pqxx/pqxx>
 #include <iostream>
 
-// Structures for computed shoe properties
-struct ShoeColor {
-    float red;
-    float green;
-    float blue;
+#include "compare.h"
+#include "compute.h"
+#include "database_features.h"
+#include "database_shoes.h"
+
+struct ShoeImageSimilarity {
+    int shoeImageId;
+    double similarityScore;
 };
 
-// Method to get shoe metadata
-ShoeColor computeShoeColorRGB(cv::Mat image) {
-    ShoeColor shoeColor;
-    shoeColor.red = 0.0;
-    shoeColor.green = 0.0;
-    shoeColor.blue = 0.0;
 
-    for (int x = 0; x < image.cols; x++) {
-        for (int y = 0; y < image.rows; y++) {
-            // if pixel is black skip it as it's not part of the shoe, its just the background
-            if (image.at<cv::Vec3b>(y, x) == cv::Vec3b(0, 0, 0)) {
-                continue;
-            }
-            cv::Vec3b pixel = image.at<cv::Vec3b>(y, x);
-            shoeColor.red += pixel[2];
-            shoeColor.green += pixel[1];
-            shoeColor.blue += pixel[0];
-        }
+int evaluateShoeColor(ShoeColor shoecolor) {
+    // Compare shoe color with shoes in database
+    // If shoe color is within a certain threshold, return the shoe id
+    // Else return -1
+    std::vector<int> shoeIds = getShoeImagesWithSimilarColor(shoecolor);
+    std::cout << "Shoe IDs with similar color: ";
+    for (int i = 0; i < shoeIds.size(); i++) {
+        std::cout << shoeIds[i] << " ";
     }
-
-    // Compute percentages of color
-    double totalShoeColorValues = shoeColor.red + shoeColor.green + shoeColor.blue;
-
-    if (totalShoeColorValues < 0) {
-        throw std::runtime_error("No shoe colors were detected.");
-    }
-
-    shoeColor.red = (shoeColor.red / totalShoeColorValues) * 100;
-    shoeColor.green = (shoeColor.green / totalShoeColorValues) * 100;
-    shoeColor.blue = (shoeColor.blue / totalShoeColorValues) * 100;
-
-    std::cout << "Shoe color: red " << shoeColor.red << "%, green " << shoeColor.green << "%, blue" << shoeColor.blue << "%." << std::endl;
-
-    return shoeColor;
+    return 1;
 }
 
+std::vector<int> evaluateShoeDominantColors(std::vector<DominantColor> dominantColors) {
+    // Compare shoe dominant colors with shoe images in database
+
+    std::vector<std::pair<int, float>> shoeImageId_and_similarityScore = getShoeImagesWithSimilarDominantColors(dominantColors);
+
+    std::vector<int> shoeImageIds;
+    for (int i = 0; i < shoeImageId_and_similarityScore.size(); i++) {
+        std::cout << "Shoe ID: " << shoeImageId_and_similarityScore[i].first << " Similarity score: " << shoeImageId_and_similarityScore[i].second << std::endl;
+        shoeImageIds.push_back(shoeImageId_and_similarityScore[i].first);
+    }
+
+    return shoeImageIds;
+}
 
 #endif

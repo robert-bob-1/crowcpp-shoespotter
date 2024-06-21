@@ -1014,6 +1014,9 @@ CMakeFiles/crowcpp.dir/main.cpp.o
  /usr/local/include/opencv4/opencv2/flann/defines.h
  /usr/local/include/opencv4/opencv2/flann/config.h
  /usr/local/include/opencv4/opencv2/core/affine.hpp
+ /usr/local/include/opencv4/opencv2/core/utils/logger.hpp
+ /usr/local/include/opencv4/opencv2/core/utils/logger.defines.hpp
+ /usr/local/include/opencv4/opencv2/core/utils/logtag.hpp
  /usr/local/include/opencv4/opencv2/dnn.hpp
  /usr/local/include/opencv4/opencv2/dnn/dnn.hpp
  /usr/local/include/opencv4/opencv2/core/async.hpp
@@ -1103,8 +1106,8 @@ CMakeFiles/crowcpp.dir/main.cpp.o
  /usr/local/include/opencv4/opencv2/video.hpp
  /usr/local/include/opencv4/opencv2/video/tracking.hpp
  /usr/local/include/opencv4/opencv2/video/background_segm.hpp
- /home/robob/crowcpp/src/database.h
- /home/robob/crowcpp/src/evaluate.h
+ /home/robob/crowcpp/src/compare.h
+ /home/robob/crowcpp/src/database_features.h
  /usr/local/include/pqxx/pqxx
  /usr/local/include/pqxx/internal/header-pre.hxx
  /usr/include/c++/11/version
@@ -1169,6 +1172,24 @@ CMakeFiles/crowcpp.dir/main.cpp.o
  /usr/local/include/pqxx/time.hxx
  /usr/local/include/pqxx/transactor.hxx
  /usr/local/include/pqxx/internal/header-post.hxx
+ /home/robob/crowcpp/src/compute.h
+ /usr/local/include/opencv4/opencv2/face.hpp
+ /usr/local/include/opencv4/opencv2/face/predict_collector.hpp
+ /usr/local/include/opencv4/opencv2/face/facerec.hpp
+ /usr/local/include/opencv4/opencv2/face/facemark.hpp
+ /usr/local/include/opencv4/opencv2/face/facemark_train.hpp
+ /usr/local/include/opencv4/opencv2/face/facemarkLBF.hpp
+ /usr/local/include/opencv4/opencv2/face/facemarkAAM.hpp
+ /usr/local/include/opencv4/opencv2/face/face_alignment.hpp
+ /usr/local/include/opencv4/opencv2/face/mace.hpp
+ /home/robob/crowcpp/src/utils.h
+ /usr/local/include/crow/middlewares/cors.h
+ /home/robob/crowcpp/src/database_shoes.h
+ /home/robob/crowcpp/src/compute.h
+ /home/robob/crowcpp/src/database_features.h
+ /home/robob/crowcpp/src/database_shoes.h
  /home/robob/crowcpp/src/evaluate.h
+ /home/robob/crowcpp/src/compare.h
+ /home/robob/crowcpp/src/service.h
  /home/robob/crowcpp/src/utils.h
 

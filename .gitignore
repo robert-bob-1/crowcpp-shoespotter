@@ -2,6 +2,7 @@
 .others/
 .vscode/
 build/
+CMakeFiles/
 
 #libs
 Crow/

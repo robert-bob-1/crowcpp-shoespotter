@@ -271,15 +271,15 @@ compilation terminated.
 Detecting C compiler ABI info failed to compile with the following output:
 Change Dir: /home/robob/crowcpp/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e90a1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e90a1.dir/build.make CMakeFiles/cmTC_e90a1.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e7bb7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e7bb7.dir/build.make CMakeFiles/cmTC_e7bb7.dir/build
 gmake[1]: Entering directory '/home/robob/crowcpp/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e90a1.dir/CMakeCCompilerABI.c.o
-/mnt/d/ProgramFiles/c/bin/gcc.exe    -o CMakeFiles/cmTC_e90a1.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Building C object CMakeFiles/cmTC_e7bb7.dir/CMakeCCompilerABI.c.o
+/mnt/d/ProgramFiles/c/bin/gcc.exe    -o CMakeFiles/cmTC_e7bb7.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
 Assembler messages:
-Fatal error: can't create CMakeFiles/cmTC_e90a1.dir/CMakeCCompilerABI.c.o: Invalid argument
-gmake[1]: *** [CMakeFiles/cmTC_e90a1.dir/build.make:78: CMakeFiles/cmTC_e90a1.dir/CMakeCCompilerABI.c.o] Error 1
+Fatal error: can't create CMakeFiles/cmTC_e7bb7.dir/CMakeCCompilerABI.c.o: Invalid argument
+gmake[1]: *** [CMakeFiles/cmTC_e7bb7.dir/build.make:78: CMakeFiles/cmTC_e7bb7.dir/CMakeCCompilerABI.c.o] Error 1
 gmake[1]: Leaving directory '/home/robob/crowcpp/build/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:127: cmTC_e90a1/fast] Error 2
+gmake: *** [Makefile:127: cmTC_e7bb7/fast] Error 2
 
 
 
@@ -287,15 +287,15 @@ gmake: *** [Makefile:127: cmTC_e90a1/fast] Error 2
 Determining if the C compiler works failed with the following output:
 Change Dir: /home/robob/crowcpp/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9f49c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9f49c.dir/build.make CMakeFiles/cmTC_9f49c.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_70f96/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_70f96.dir/build.make CMakeFiles/cmTC_70f96.dir/build
 gmake[1]: Entering directory '/home/robob/crowcpp/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9f49c.dir/testCCompiler.c.o
-/mnt/d/ProgramFiles/c/bin/gcc.exe    -o CMakeFiles/cmTC_9f49c.dir/testCCompiler.c.o -c /home/robob/crowcpp/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Building C object CMakeFiles/cmTC_70f96.dir/testCCompiler.c.o
+/mnt/d/ProgramFiles/c/bin/gcc.exe    -o CMakeFiles/cmTC_70f96.dir/testCCompiler.c.o -c /home/robob/crowcpp/build/CMakeFiles/CMakeTmp/testCCompiler.c
 Assembler messages:
-Fatal error: can't create CMakeFiles/cmTC_9f49c.dir/testCCompiler.c.o: Invalid argument
-gmake[1]: *** [CMakeFiles/cmTC_9f49c.dir/build.make:78: CMakeFiles/cmTC_9f49c.dir/testCCompiler.c.o] Error 1
+Fatal error: can't create CMakeFiles/cmTC_70f96.dir/testCCompiler.c.o: Invalid argument
+gmake[1]: *** [CMakeFiles/cmTC_70f96.dir/build.make:78: CMakeFiles/cmTC_70f96.dir/testCCompiler.c.o] Error 1
 gmake[1]: Leaving directory '/home/robob/crowcpp/build/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:127: cmTC_9f49c/fast] Error 2
+gmake: *** [Makefile:127: cmTC_70f96/fast] Error 2
 
 
 
@@ -572,16 +572,16 @@ compilation terminated.
 Detecting C compiler ABI info failed to compile with the following output:
 Change Dir: /home/robob/crowcpp/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d127b/fast && gmake[1]: Entering directory '/home/robob/crowcpp/build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_d127b.dir/build.make CMakeFiles/cmTC_d127b.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f6acd/fast && gmake[1]: Entering directory '/home/robob/crowcpp/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_f6acd.dir/build.make CMakeFiles/cmTC_f6acd.dir/build
 gmake[2]: Entering directory '/home/robob/crowcpp/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d127b.dir/CMakeCCompilerABI.c.o
-/mnt/d/ProgramFiles/c/bin/gcc.exe    -o CMakeFiles/cmTC_d127b.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Building C object CMakeFiles/cmTC_f6acd.dir/CMakeCCompilerABI.c.o
+/mnt/d/ProgramFiles/c/bin/gcc.exe    -o CMakeFiles/cmTC_f6acd.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
 Assembler messages:
-Fatal error: can't create CMakeFiles/cmTC_d127b.dir/CMakeCCompilerABI.c.o: Invalid argument
-gmake[2]: *** [CMakeFiles/cmTC_d127b.dir/build.make:78: CMakeFiles/cmTC_d127b.dir/CMakeCCompilerABI.c.o] Error 1
+Fatal error: can't create CMakeFiles/cmTC_f6acd.dir/CMakeCCompilerABI.c.o: Invalid argument
+gmake[2]: *** [CMakeFiles/cmTC_f6acd.dir/build.make:78: CMakeFiles/cmTC_f6acd.dir/CMakeCCompilerABI.c.o] Error 1
 gmake[2]: Leaving directory '/home/robob/crowcpp/build/CMakeFiles/CMakeTmp'
-gmake[1]: *** [Makefile:127: cmTC_d127b/fast] Error 2
+gmake[1]: *** [Makefile:127: cmTC_f6acd/fast] Error 2
 gmake[1]: Leaving directory '/home/robob/crowcpp/build/CMakeFiles/CMakeTmp'
 
 
@@ -590,16 +590,16 @@ gmake[1]: Leaving directory '/home/robob/crowcpp/build/CMakeFiles/CMakeTmp'
 Determining if the C compiler works failed with the following output:
 Change Dir: /home/robob/crowcpp/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2add6/fast && gmake[1]: Entering directory '/home/robob/crowcpp/build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_2add6.dir/build.make CMakeFiles/cmTC_2add6.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_06439/fast && gmake[1]: Entering directory '/home/robob/crowcpp/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_06439.dir/build.make CMakeFiles/cmTC_06439.dir/build
 gmake[2]: Entering directory '/home/robob/crowcpp/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2add6.dir/testCCompiler.c.o
-/mnt/d/ProgramFiles/c/bin/gcc.exe    -o CMakeFiles/cmTC_2add6.dir/testCCompiler.c.o -c /home/robob/crowcpp/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Building C object CMakeFiles/cmTC_06439.dir/testCCompiler.c.o
+/mnt/d/ProgramFiles/c/bin/gcc.exe    -o CMakeFiles/cmTC_06439.dir/testCCompiler.c.o -c /home/robob/crowcpp/build/CMakeFiles/CMakeTmp/testCCompiler.c
 Assembler messages:
-Fatal error: can't create CMakeFiles/cmTC_2add6.dir/testCCompiler.c.o: Invalid argument
-gmake[2]: *** [CMakeFiles/cmTC_2add6.dir/build.make:78: CMakeFiles/cmTC_2add6.dir/testCCompiler.c.o] Error 1
+Fatal error: can't create CMakeFiles/cmTC_06439.dir/testCCompiler.c.o: Invalid argument
+gmake[2]: *** [CMakeFiles/cmTC_06439.dir/build.make:78: CMakeFiles/cmTC_06439.dir/testCCompiler.c.o] Error 1
 gmake[2]: Leaving directory '/home/robob/crowcpp/build/CMakeFiles/CMakeTmp'
-gmake[1]: *** [Makefile:127: cmTC_2add6/fast] Error 2
+gmake[1]: *** [Makefile:127: cmTC_06439/fast] Error 2
 gmake[1]: Leaving directory '/home/robob/crowcpp/build/CMakeFiles/CMakeTmp'
 
 

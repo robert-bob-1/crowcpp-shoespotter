@@ -1013,6 +1013,9 @@ CMakeFiles/crowcpp.dir/main.cpp.o: ../main.cpp \
   /usr/local/include/opencv4/opencv2/flann/defines.h \
   /usr/local/include/opencv4/opencv2/flann/config.h \
   /usr/local/include/opencv4/opencv2/core/affine.hpp \
+  /usr/local/include/opencv4/opencv2/core/utils/logger.hpp \
+  /usr/local/include/opencv4/opencv2/core/utils/logger.defines.hpp \
+  /usr/local/include/opencv4/opencv2/core/utils/logtag.hpp \
   /usr/local/include/opencv4/opencv2/dnn.hpp \
   /usr/local/include/opencv4/opencv2/dnn/dnn.hpp \
   /usr/local/include/opencv4/opencv2/core/async.hpp \
@@ -1102,8 +1105,8 @@ CMakeFiles/crowcpp.dir/main.cpp.o: ../main.cpp \
   /usr/local/include/opencv4/opencv2/video.hpp \
   /usr/local/include/opencv4/opencv2/video/tracking.hpp \
   /usr/local/include/opencv4/opencv2/video/background_segm.hpp \
-  ../src/database.h \
-  ../src/evaluate.h \
+  ../src/compare.h \
+  ../src/database_features.h \
   /usr/local/include/pqxx/pqxx \
   /usr/local/include/pqxx/internal/header-pre.hxx \
   /usr/include/c++/11/version \
@@ -1168,9 +1171,39 @@ CMakeFiles/crowcpp.dir/main.cpp.o: ../main.cpp \
   /usr/local/include/pqxx/time.hxx \
   /usr/local/include/pqxx/transactor.hxx \
   /usr/local/include/pqxx/internal/header-post.hxx \
+  ../src/compute.h \
+  /usr/local/include/opencv4/opencv2/face.hpp \
+  /usr/local/include/opencv4/opencv2/face/predict_collector.hpp \
+  /usr/local/include/opencv4/opencv2/face/facerec.hpp \
+  /usr/local/include/opencv4/opencv2/face/facemark.hpp \
+  /usr/local/include/opencv4/opencv2/face/facemark_train.hpp \
+  /usr/local/include/opencv4/opencv2/face/facemarkLBF.hpp \
+  /usr/local/include/opencv4/opencv2/face/facemarkAAM.hpp \
+  /usr/local/include/opencv4/opencv2/face/face_alignment.hpp \
+  /usr/local/include/opencv4/opencv2/face/mace.hpp \
+  ../src/utils.h \
+  /usr/local/include/crow/middlewares/cors.h \
+  ../src/database_shoes.h \
+  ../src/compute.h \
+  ../src/database_features.h \
+  ../src/database_shoes.h \
   ../src/evaluate.h \
+  ../src/compare.h \
+  ../src/service.h \
   ../src/utils.h
 
+
+/usr/local/include/crow/middlewares/cors.h:
+
+/usr/local/include/opencv4/opencv2/face/face_alignment.hpp:
+
+/usr/local/include/opencv4/opencv2/face/facemarkAAM.hpp:
+
+/usr/local/include/opencv4/opencv2/face/facemarkLBF.hpp:
+
+/usr/local/include/opencv4/opencv2/face/facemark_train.hpp:
+
+/usr/local/include/opencv4/opencv2/face/facemark.hpp:
 
 /usr/local/include/pqxx/internal/header-post.hxx:
 
@@ -1224,6 +1257,8 @@ CMakeFiles/crowcpp.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/11/version:
 
+../src/database_features.h:
+
 /usr/local/include/opencv4/opencv2/stitching/detail/blenders.hpp:
 
 /usr/local/include/opencv4/opencv2/stitching/detail/exposure_compensate.hpp:
@@ -1241,6 +1276,8 @@ CMakeFiles/crowcpp.dir/main.cpp.o: ../main.cpp \
 /usr/include/c++/11/queue:
 
 /usr/local/include/opencv4/opencv2/stitching/detail/util_inl.hpp:
+
+/usr/local/include/opencv4/opencv2/face/predict_collector.hpp:
 
 /usr/include/c++/11/bits/stl_list.h:
 
@@ -1317,6 +1354,8 @@ CMakeFiles/crowcpp.dir/main.cpp.o: ../main.cpp \
 /usr/local/include/opencv4/opencv2/dnn/dnn.hpp:
 
 /usr/local/include/opencv4/opencv2/dnn.hpp:
+
+/usr/local/include/opencv4/opencv2/core/utils/logtag.hpp:
 
 /usr/local/include/opencv4/opencv2/flann/defines.h:
 
@@ -1529,6 +1568,8 @@ CMakeFiles/crowcpp.dir/main.cpp.o: ../main.cpp \
 /usr/include/asio/detail/winsock_init.hpp:
 
 /usr/include/asio/detail/array.hpp:
+
+/usr/local/include/opencv4/opencv2/core/utils/logger.hpp:
 
 /usr/include/asio/ip/address.hpp:
 
@@ -1846,9 +1887,9 @@ CMakeFiles/crowcpp.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
 
-/usr/local/include/pqxx/internal/libpq-forward.hxx:
-
 ../src/evaluate.h:
+
+/usr/local/include/pqxx/internal/libpq-forward.hxx:
 
 /usr/include/c++/11/bits/stl_algo.h:
 
@@ -1857,6 +1898,8 @@ CMakeFiles/crowcpp.dir/main.cpp.o: ../main.cpp \
 /usr/include/asio/detail/executor_function.hpp:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h:
+
+../src/database_shoes.h:
 
 /usr/include/c++/11/bits/shared_ptr_atomic.h:
 
@@ -1975,6 +2018,8 @@ CMakeFiles/crowcpp.dir/main.cpp.o: ../main.cpp \
 /usr/include/asio/detail/memory.hpp:
 
 /usr/include/asio/execution/bad_executor.hpp:
+
+/usr/local/include/opencv4/opencv2/face/facerec.hpp:
 
 /usr/include/asio/basic_stream_socket.hpp:
 
@@ -2256,6 +2301,8 @@ CMakeFiles/crowcpp.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
+/usr/local/include/opencv4/opencv2/face/mace.hpp:
+
 /usr/include/asio/generic/basic_endpoint.hpp:
 
 /usr/include/asio/execution/execute.hpp:
@@ -2408,6 +2455,8 @@ CMakeFiles/crowcpp.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/linux/ioctl.h:
 
+../src/compare.h:
+
 /usr/include/asio/detail/completion_handler.hpp:
 
 /usr/include/asio/handler_invoke_hook.hpp:
@@ -2415,6 +2464,8 @@ CMakeFiles/crowcpp.dir/main.cpp.o: ../main.cpp \
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
 /usr/include/c++/11/functional:
+
+/usr/local/include/opencv4/opencv2/face.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
 
@@ -2588,6 +2639,8 @@ CMakeFiles/crowcpp.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/11/bits/localefwd.h:
 
+/usr/local/include/opencv4/opencv2/core/utils/logger.defines.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/setjmp.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
@@ -2667,8 +2720,6 @@ CMakeFiles/crowcpp.dir/main.cpp.o: ../main.cpp \
 /usr/include/assert.h:
 
 /usr/include/c++/11/bits/allocated_ptr.h:
-
-../src/database.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
@@ -2819,6 +2870,8 @@ CMakeFiles/crowcpp.dir/main.cpp.o: ../main.cpp \
 /usr/include/asio/traits/start_member.hpp:
 
 /usr/include/asio/detail/select_interrupter.hpp:
+
+../src/compute.h:
 
 /usr/include/asio/packaged_task.hpp:
 
@@ -3117,6 +3170,8 @@ CMakeFiles/crowcpp.dir/main.cpp.o: ../main.cpp \
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
 /usr/include/x86_64-linux-gnu/bits/socket.h:
+
+../src/service.h:
 
 /usr/include/asio/detail/concurrency_hint.hpp:
 
